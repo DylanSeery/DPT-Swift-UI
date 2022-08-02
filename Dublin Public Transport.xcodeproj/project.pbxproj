@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6FC5382899C0D7002933E2 /* Dublin_Public_TransportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5372899C0D7002933E2 /* Dublin_Public_TransportApp.swift */; };
+		EB6FC53A2899C0D7002933E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5392899C0D7002933E2 /* ContentView.swift */; };
+		EB6FC53C2899C0D8002933E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC53B2899C0D8002933E2 /* Assets.xcassets */; };
+		EB6FC53F2899C0D8002933E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC53E2899C0D8002933E2 /* Preview Assets.xcassets */; };
+		EB6FC5432899C0D9002933E2 /* Dublin Public Transport WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EB6FC5422899C0D9002933E2 /* Dublin Public Transport WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB6FC5482899C0D9002933E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC5472899C0D9002933E2 /* Assets.xcassets */; };
+		EB6FC54E2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB6FC54D2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB6FC5532899C0D9002933E2 /* Dublin_Public_TransportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5522899C0D9002933E2 /* Dublin_Public_TransportApp.swift */; };
+		EB6FC5552899C0D9002933E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5542899C0D9002933E2 /* ContentView.swift */; };
+		EB6FC5572899C0D9002933E2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5562899C0D9002933E2 /* NotificationController.swift */; };
+		EB6FC5592899C0D9002933E2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5582899C0D9002933E2 /* NotificationView.swift */; };
+		EB6FC55B2899C0D9002933E2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC55A2899C0D9002933E2 /* ComplicationController.swift */; };
+		EB6FC55D2899C0DA002933E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC55C2899C0DA002933E2 /* Assets.xcassets */; };
+		EB6FC5602899C0DA002933E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC55F2899C0DA002933E2 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6FC5442899C0D9002933E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6FC52C2899C0D7002933E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6FC5412899C0D9002933E2;
+			remoteInfo = "Dublin Public Transport WatchKit App";
+		};
+		EB6FC54F2899C0D9002933E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6FC52C2899C0D7002933E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6FC54C2899C0D9002933E2;
+			remoteInfo = "Dublin Public Transport WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB6FC5682899C0DA002933E2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB6FC54E2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6FC56C2899C0DA002933E2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EB6FC5432899C0D9002933E2 /* Dublin Public Transport WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB6FC5342899C0D7002933E2 /* Dublin Public Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dublin Public Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6FC5372899C0D7002933E2 /* Dublin_Public_TransportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dublin_Public_TransportApp.swift; sourceTree = "<group>"; };
+		EB6FC5392899C0D7002933E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB6FC53B2899C0D8002933E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6FC53E2899C0D8002933E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB6FC5422899C0D9002933E2 /* Dublin Public Transport WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dublin Public Transport WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6FC5472899C0D9002933E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6FC54D2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dublin Public Transport WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6FC5522899C0D9002933E2 /* Dublin_Public_TransportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dublin_Public_TransportApp.swift; sourceTree = "<group>"; };
+		EB6FC5542899C0D9002933E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB6FC5562899C0D9002933E2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EB6FC5582899C0D9002933E2 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		EB6FC55A2899C0D9002933E2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EB6FC55C2899C0DA002933E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6FC55F2899C0DA002933E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB6FC5612899C0DA002933E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6FC5622899C0DA002933E2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6FC5312899C0D7002933E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6FC54A2899C0D9002933E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6FC52B2899C0D7002933E2 = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5362899C0D7002933E2 /* Dublin Public Transport */,
+				EB6FC5462899C0D9002933E2 /* Dublin Public Transport WatchKit App */,
+				EB6FC5512899C0D9002933E2 /* Dublin Public Transport WatchKit Extension */,
+				EB6FC5352899C0D7002933E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6FC5352899C0D7002933E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5342899C0D7002933E2 /* Dublin Public Transport.app */,
+				EB6FC5422899C0D9002933E2 /* Dublin Public Transport WatchKit App.app */,
+				EB6FC54D2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6FC5362899C0D7002933E2 /* Dublin Public Transport */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5372899C0D7002933E2 /* Dublin_Public_TransportApp.swift */,
+				EB6FC5392899C0D7002933E2 /* ContentView.swift */,
+				EB6FC53B2899C0D8002933E2 /* Assets.xcassets */,
+				EB6FC53D2899C0D8002933E2 /* Preview Content */,
+			);
+			path = "Dublin Public Transport";
+			sourceTree = "<group>";
+		};
+		EB6FC53D2899C0D8002933E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC53E2899C0D8002933E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB6FC5462899C0D9002933E2 /* Dublin Public Transport WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5472899C0D9002933E2 /* Assets.xcassets */,
+			);
+			path = "Dublin Public Transport WatchKit App";
+			sourceTree = "<group>";
+		};
+		EB6FC5512899C0D9002933E2 /* Dublin Public Transport WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5522899C0D9002933E2 /* Dublin_Public_TransportApp.swift */,
+				EB6FC5542899C0D9002933E2 /* ContentView.swift */,
+				EB6FC5562899C0D9002933E2 /* NotificationController.swift */,
+				EB6FC5582899C0D9002933E2 /* NotificationView.swift */,
+				EB6FC55A2899C0D9002933E2 /* ComplicationController.swift */,
+				EB6FC55C2899C0DA002933E2 /* Assets.xcassets */,
+				EB6FC5612899C0DA002933E2 /* Info.plist */,
+				EB6FC5622899C0DA002933E2 /* PushNotificationPayload.apns */,
+				EB6FC55E2899C0DA002933E2 /* Preview Content */,
+			);
+			path = "Dublin Public Transport WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EB6FC55E2899C0DA002933E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC55F2899C0DA002933E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6FC5332899C0D7002933E2 /* Dublin Public Transport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6FC56D2899C0DA002933E2 /* Build configuration list for PBXNativeTarget "Dublin Public Transport" */;
+			buildPhases = (
+				EB6FC5302899C0D7002933E2 /* Sources */,
+				EB6FC5312899C0D7002933E2 /* Frameworks */,
+				EB6FC5322899C0D7002933E2 /* Resources */,
+				EB6FC56C2899C0DA002933E2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6FC5452899C0D9002933E2 /* PBXTargetDependency */,
+			);
+			name = "Dublin Public Transport";
+			productName = "Dublin Public Transport";
+			productReference = EB6FC5342899C0D7002933E2 /* Dublin Public Transport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB6FC5412899C0D9002933E2 /* Dublin Public Transport WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6FC5692899C0DA002933E2 /* Build configuration list for PBXNativeTarget "Dublin Public Transport WatchKit App" */;
+			buildPhases = (
+				EB6FC5402899C0D9002933E2 /* Resources */,
+				EB6FC5682899C0DA002933E2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6FC5502899C0D9002933E2 /* PBXTargetDependency */,
+			);
+			name = "Dublin Public Transport WatchKit App";
+			productName = "Dublin Public Transport WatchKit App";
+			productReference = EB6FC5422899C0D9002933E2 /* Dublin Public Transport WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EB6FC54C2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6FC5652899C0DA002933E2 /* Build configuration list for PBXNativeTarget "Dublin Public Transport WatchKit Extension" */;
+			buildPhases = (
+				EB6FC5492899C0D9002933E2 /* Sources */,
+				EB6FC54A2899C0D9002933E2 /* Frameworks */,
+				EB6FC54B2899C0D9002933E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dublin Public Transport WatchKit Extension";
+			productName = "Dublin Public Transport WatchKit Extension";
+			productReference = EB6FC54D2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6FC52C2899C0D7002933E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EB6FC5332899C0D7002933E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EB6FC5412899C0D9002933E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EB6FC54C2899C0D9002933E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EB6FC52F2899C0D7002933E2 /* Build configuration list for PBXProject "Dublin Public Transport" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6FC52B2899C0D7002933E2;
+			productRefGroup = EB6FC5352899C0D7002933E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6FC5332899C0D7002933E2 /* Dublin Public Transport */,
+				EB6FC5412899C0D9002933E2 /* Dublin Public Transport WatchKit App */,
+				EB6FC54C2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6FC5322899C0D7002933E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6FC53F2899C0D8002933E2 /* Preview Assets.xcassets in Resources */,
+				EB6FC53C2899C0D8002933E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6FC5402899C0D9002933E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6FC5482899C0D9002933E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6FC54B2899C0D9002933E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6FC5602899C0DA002933E2 /* Preview Assets.xcassets in Resources */,
+				EB6FC55D2899C0DA002933E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6FC5302899C0D7002933E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6FC53A2899C0D7002933E2 /* ContentView.swift in Sources */,
+				EB6FC5382899C0D7002933E2 /* Dublin_Public_TransportApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6FC5492899C0D9002933E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6FC5572899C0D9002933E2 /* NotificationController.swift in Sources */,
+				EB6FC5552899C0D9002933E2 /* ContentView.swift in Sources */,
+				EB6FC55B2899C0D9002933E2 /* ComplicationController.swift in Sources */,
+				EB6FC5532899C0D9002933E2 /* Dublin_Public_TransportApp.swift in Sources */,
+				EB6FC5592899C0D9002933E2 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6FC5452899C0D9002933E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6FC5412899C0D9002933E2 /* Dublin Public Transport WatchKit App */;
+			targetProxy = EB6FC5442899C0D9002933E2 /* PBXContainerItemProxy */;
+		};
+		EB6FC5502899C0D9002933E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6FC54C2899C0D9002933E2 /* Dublin Public Transport WatchKit Extension */;
+			targetProxy = EB6FC54F2899C0D9002933E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB6FC5632899C0DA002933E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6FC5642899C0DA002933E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB6FC5662899C0DA002933E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dublin Public Transport WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = FHJ65NT2SM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dublin Public Transport WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dublin Public Transport WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		EB6FC5672899C0DA002933E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dublin Public Transport WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = FHJ65NT2SM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dublin Public Transport WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dublin Public Transport WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		EB6FC56A2899C0DA002933E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHJ65NT2SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dublin_Public_Transport_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dublin Public Transport WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.seerydev.Dublin-Public-Transport";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		EB6FC56B2899C0DA002933E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHJ65NT2SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Dublin_Public_Transport_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dublin Public Transport WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.seerydev.Dublin-Public-Transport";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		EB6FC56E2899C0DA002933E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dublin Public Transport/Preview Content\"";
+				DEVELOPMENT_TEAM = FHJ65NT2SM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB6FC56F2899C0DA002933E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dublin Public Transport/Preview Content\"";
+				DEVELOPMENT_TEAM = FHJ65NT2SM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6FC52F2899C0D7002933E2 /* Build configuration list for PBXProject "Dublin Public Transport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6FC5632899C0DA002933E2 /* Debug */,
+				EB6FC5642899C0DA002933E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6FC5652899C0DA002933E2 /* Build configuration list for PBXNativeTarget "Dublin Public Transport WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6FC5662899C0DA002933E2 /* Debug */,
+				EB6FC5672899C0DA002933E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6FC5692899C0DA002933E2 /* Build configuration list for PBXNativeTarget "Dublin Public Transport WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6FC56A2899C0DA002933E2 /* Debug */,
+				EB6FC56B2899C0DA002933E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6FC56D2899C0DA002933E2 /* Build configuration list for PBXNativeTarget "Dublin Public Transport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6FC56E2899C0DA002933E2 /* Debug */,
+				EB6FC56F2899C0DA002933E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6FC52C2899C0D7002933E2 /* Project object */;
+}
