@@ -28,8 +28,11 @@ struct BusHomeView: View {
             .navigationTitle("Dublin Bus")
             .toolbar {
                 ToolbarItem {
-                    Image(systemName: "gearshape.fill")
-                        .foregroundColor(Color.gray)
+                    NavigationLink(destination: SettingsView(),
+                    label: {
+                        Image(systemName: "gearshape.fill")
+                            .foregroundColor(Color.gray)
+                    })
                 }
             }
         }.navigationViewStyle(.stack).accentColor(Color.text)

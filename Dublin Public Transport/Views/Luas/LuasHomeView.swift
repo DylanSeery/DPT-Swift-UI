@@ -11,18 +11,17 @@ struct LuasHomeView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    Text("Luas")
-                        .font(.title2)
-                        .bold()
-                }.frame(maxWidth: .infinity)
                 
             }.background(Color.background)
+            .navigationTitle("Luas")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem {
-                    Image(systemName: "gearshape.fill")
-                        .foregroundColor(Color.gray)
+                    NavigationLink(destination: SettingsView(),
+                    label: {
+                        Image(systemName: "gearshape.fill")
+                            .foregroundColor(Color.gray)
+                    })
                 }
             }
         }.navigationViewStyle(.stack)

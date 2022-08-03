@@ -31,6 +31,7 @@
 		EB6FC5852899E973002933E2 /* BusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5842899E973002933E2 /* BusService.swift */; };
 		EB6FC5872899EF9E002933E2 /* BusStopRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5862899EF9E002933E2 /* BusStopRowList.swift */; };
 		EB6FC5892899F55F002933E2 /* BusStopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5882899F55F002933E2 /* BusStopListView.swift */; };
+		EB6FC58C289A873E002933E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC58B289A873E002933E2 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		EB6FC5842899E973002933E2 /* BusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusService.swift; sourceTree = "<group>"; };
 		EB6FC5862899EF9E002933E2 /* BusStopRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopRowList.swift; sourceTree = "<group>"; };
 		EB6FC5882899F55F002933E2 /* BusStopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopListView.swift; sourceTree = "<group>"; };
+		EB6FC58B289A873E002933E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 		EB6FC5752899D819002933E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EB6FC58A289A8724002933E2 /* Settings */,
 				EB6FC5812899E7D0002933E2 /* Favourites */,
 				EB6FC57B2899D87A002933E2 /* Bus */,
 				EB6FC57A2899D870002933E2 /* Luas */,
@@ -250,6 +253,14 @@
 				EB6FC5822899E7F1002933E2 /* FavouriteView.swift */,
 			);
 			path = Favourites;
+			sourceTree = "<group>";
+		};
+		EB6FC58A289A8724002933E2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC58B289A873E002933E2 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +406,7 @@
 				EB6FC5872899EF9E002933E2 /* BusStopRowList.swift in Sources */,
 				EB6FC5772899D82B002933E2 /* LuasHomeView.swift in Sources */,
 				EB6FC5892899F55F002933E2 /* BusStopListView.swift in Sources */,
+				EB6FC58C289A873E002933E2 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
