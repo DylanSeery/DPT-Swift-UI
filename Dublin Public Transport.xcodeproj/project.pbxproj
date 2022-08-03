@@ -21,6 +21,16 @@
 		EB6FC55B2899C0D9002933E2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC55A2899C0D9002933E2 /* ComplicationController.swift */; };
 		EB6FC55D2899C0DA002933E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC55C2899C0DA002933E2 /* Assets.xcassets */; };
 		EB6FC5602899C0DA002933E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC55F2899C0DA002933E2 /* Preview Assets.xcassets */; };
+		EB6FC5712899C4B1002933E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5702899C4B1002933E2 /* Extensions.swift */; };
+		EB6FC5742899CA06002933E2 /* TransportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5732899CA06002933E2 /* TransportModel.swift */; };
+		EB6FC5772899D82B002933E2 /* LuasHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5762899D82B002933E2 /* LuasHomeView.swift */; };
+		EB6FC5792899D855002933E2 /* BusHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5782899D855002933E2 /* BusHomeView.swift */; };
+		EB6FC57D2899DBD3002933E2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC57C2899DBD3002933E2 /* PreviewData.swift */; };
+		EB6FC57F2899DCC8002933E2 /* BusStopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC57E2899DCC8002933E2 /* BusStopRow.swift */; };
+		EB6FC5832899E7F1002933E2 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5822899E7F1002933E2 /* FavouriteView.swift */; };
+		EB6FC5852899E973002933E2 /* BusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5842899E973002933E2 /* BusService.swift */; };
+		EB6FC5872899EF9E002933E2 /* BusStopRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5862899EF9E002933E2 /* BusStopRowList.swift */; };
+		EB6FC5892899F55F002933E2 /* BusStopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5882899F55F002933E2 /* BusStopListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +93,16 @@
 		EB6FC55F2899C0DA002933E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB6FC5612899C0DA002933E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6FC5622899C0DA002933E2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EB6FC5702899C4B1002933E2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EB6FC5732899CA06002933E2 /* TransportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportModel.swift; sourceTree = "<group>"; };
+		EB6FC5762899D82B002933E2 /* LuasHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuasHomeView.swift; sourceTree = "<group>"; };
+		EB6FC5782899D855002933E2 /* BusHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusHomeView.swift; sourceTree = "<group>"; };
+		EB6FC57C2899DBD3002933E2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		EB6FC57E2899DCC8002933E2 /* BusStopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopRow.swift; sourceTree = "<group>"; };
+		EB6FC5822899E7F1002933E2 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		EB6FC5842899E973002933E2 /* BusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusService.swift; sourceTree = "<group>"; };
+		EB6FC5862899EF9E002933E2 /* BusStopRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopRowList.swift; sourceTree = "<group>"; };
+		EB6FC5882899F55F002933E2 /* BusStopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +146,13 @@
 		EB6FC5362899C0D7002933E2 /* Dublin Public Transport */ = {
 			isa = PBXGroup;
 			children = (
+				EB6FC5802899E411002933E2 /* Services */,
+				EB6FC5752899D819002933E2 /* Views */,
+				EB6FC5722899C9D8002933E2 /* Models */,
 				EB6FC5372899C0D7002933E2 /* Dublin_Public_TransportApp.swift */,
-				EB6FC5392899C0D7002933E2 /* ContentView.swift */,
 				EB6FC53B2899C0D8002933E2 /* Assets.xcassets */,
 				EB6FC53D2899C0D8002933E2 /* Preview Content */,
+				EB6FC5702899C4B1002933E2 /* Extensions.swift */,
 			);
 			path = "Dublin Public Transport";
 			sourceTree = "<group>";
@@ -138,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				EB6FC53E2899C0D8002933E2 /* Preview Assets.xcassets */,
+				EB6FC57C2899DBD3002933E2 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -172,6 +196,60 @@
 				EB6FC55F2899C0DA002933E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB6FC5722899C9D8002933E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5732899CA06002933E2 /* TransportModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB6FC5752899D819002933E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5812899E7D0002933E2 /* Favourites */,
+				EB6FC57B2899D87A002933E2 /* Bus */,
+				EB6FC57A2899D870002933E2 /* Luas */,
+				EB6FC5392899C0D7002933E2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB6FC57A2899D870002933E2 /* Luas */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5762899D82B002933E2 /* LuasHomeView.swift */,
+			);
+			path = Luas;
+			sourceTree = "<group>";
+		};
+		EB6FC57B2899D87A002933E2 /* Bus */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5782899D855002933E2 /* BusHomeView.swift */,
+				EB6FC57E2899DCC8002933E2 /* BusStopRow.swift */,
+				EB6FC5862899EF9E002933E2 /* BusStopRowList.swift */,
+				EB6FC5882899F55F002933E2 /* BusStopListView.swift */,
+			);
+			path = Bus;
+			sourceTree = "<group>";
+		};
+		EB6FC5802899E411002933E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5842899E973002933E2 /* BusService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EB6FC5812899E7D0002933E2 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				EB6FC5822899E7F1002933E2 /* FavouriteView.swift */,
+			);
+			path = Favourites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +383,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6FC5792899D855002933E2 /* BusHomeView.swift in Sources */,
 				EB6FC53A2899C0D7002933E2 /* ContentView.swift in Sources */,
+				EB6FC5852899E973002933E2 /* BusService.swift in Sources */,
+				EB6FC5742899CA06002933E2 /* TransportModel.swift in Sources */,
+				EB6FC57F2899DCC8002933E2 /* BusStopRow.swift in Sources */,
+				EB6FC5712899C4B1002933E2 /* Extensions.swift in Sources */,
+				EB6FC57D2899DBD3002933E2 /* PreviewData.swift in Sources */,
 				EB6FC5382899C0D7002933E2 /* Dublin_Public_TransportApp.swift in Sources */,
+				EB6FC5832899E7F1002933E2 /* FavouriteView.swift in Sources */,
+				EB6FC5872899EF9E002933E2 /* BusStopRowList.swift in Sources */,
+				EB6FC5772899D82B002933E2 /* LuasHomeView.swift in Sources */,
+				EB6FC5892899F55F002933E2 /* BusStopListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -442,6 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
