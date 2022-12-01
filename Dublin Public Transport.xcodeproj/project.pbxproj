@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB17FD3528ABB2380038F10C /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = EB17FD3428ABB2380038F10C /* SwiftUIX */; };
+		EB17FD3728AC0A020038F10C /* LuasStopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17FD3628AC0A020038F10C /* LuasStopRow.swift */; };
+		EB17FD3928AC0AF80038F10C /* LuasStops.json in Resources */ = {isa = PBXBuildFile; fileRef = EB17FD3828AC0AF80038F10C /* LuasStops.json */; };
+		EB17FD3B28AC0C750038F10C /* LuasService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17FD3A28AC0C750038F10C /* LuasService.swift */; };
+		EB17FD3D28AC0F110038F10C /* LuasStopRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17FD3C28AC0F110038F10C /* LuasStopRowList.swift */; };
+		EB17FD3F28C673DD0038F10C /* LuasStopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17FD3E28C673DD0038F10C /* LuasStopListView.swift */; };
+		EB4103B72936BE4400051F6B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4103B62936BE4400051F6B /* LocationManager.swift */; };
+		EB4103BA2936C17D00051F6B /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4103B92936C17D00051F6B /* LocationView.swift */; };
 		EB6FC5382899C0D7002933E2 /* Dublin_Public_TransportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5372899C0D7002933E2 /* Dublin_Public_TransportApp.swift */; };
 		EB6FC53A2899C0D7002933E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5392899C0D7002933E2 /* ContentView.swift */; };
 		EB6FC53C2899C0D8002933E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6FC53B2899C0D8002933E2 /* Assets.xcassets */; };
@@ -27,11 +35,12 @@
 		EB6FC5792899D855002933E2 /* BusHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5782899D855002933E2 /* BusHomeView.swift */; };
 		EB6FC57D2899DBD3002933E2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC57C2899DBD3002933E2 /* PreviewData.swift */; };
 		EB6FC57F2899DCC8002933E2 /* BusStopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC57E2899DCC8002933E2 /* BusStopRow.swift */; };
-		EB6FC5832899E7F1002933E2 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5822899E7F1002933E2 /* FavouriteView.swift */; };
 		EB6FC5852899E973002933E2 /* BusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5842899E973002933E2 /* BusService.swift */; };
 		EB6FC5872899EF9E002933E2 /* BusStopRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5862899EF9E002933E2 /* BusStopRowList.swift */; };
 		EB6FC5892899F55F002933E2 /* BusStopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC5882899F55F002933E2 /* BusStopListView.swift */; };
 		EB6FC58C289A873E002933E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC58B289A873E002933E2 /* SettingsView.swift */; };
+		EB856C55289ABA940035CD53 /* BusStops.json in Resources */ = {isa = PBXBuildFile; fileRef = EB856C54289ABA940035CD53 /* BusStops.json */; };
+		EB86E5922936CD45003989D4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB86E5912936CD45003989D4 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +86,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB17FD3628AC0A020038F10C /* LuasStopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuasStopRow.swift; sourceTree = "<group>"; };
+		EB17FD3828AC0AF80038F10C /* LuasStops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LuasStops.json; sourceTree = "<group>"; };
+		EB17FD3A28AC0C750038F10C /* LuasService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuasService.swift; sourceTree = "<group>"; };
+		EB17FD3C28AC0F110038F10C /* LuasStopRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuasStopRowList.swift; sourceTree = "<group>"; };
+		EB17FD3E28C673DD0038F10C /* LuasStopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuasStopListView.swift; sourceTree = "<group>"; };
+		EB4103B62936BE4400051F6B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EB4103B92936C17D00051F6B /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		EB6FC5342899C0D7002933E2 /* Dublin Public Transport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dublin Public Transport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6FC5372899C0D7002933E2 /* Dublin_Public_TransportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dublin_Public_TransportApp.swift; sourceTree = "<group>"; };
 		EB6FC5392899C0D7002933E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,11 +116,12 @@
 		EB6FC5782899D855002933E2 /* BusHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusHomeView.swift; sourceTree = "<group>"; };
 		EB6FC57C2899DBD3002933E2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		EB6FC57E2899DCC8002933E2 /* BusStopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopRow.swift; sourceTree = "<group>"; };
-		EB6FC5822899E7F1002933E2 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
 		EB6FC5842899E973002933E2 /* BusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusService.swift; sourceTree = "<group>"; };
 		EB6FC5862899EF9E002933E2 /* BusStopRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopRowList.swift; sourceTree = "<group>"; };
 		EB6FC5882899F55F002933E2 /* BusStopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopListView.swift; sourceTree = "<group>"; };
 		EB6FC58B289A873E002933E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EB856C54289ABA940035CD53 /* BusStops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BusStops.json; sourceTree = "<group>"; };
+		EB86E5912936CD45003989D4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB17FD3528ABB2380038F10C /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +143,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB4103B52936BE3000051F6B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EB4103B62936BE4400051F6B /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EB4103B82936C16400051F6B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EB4103B92936C17D00051F6B /* LocationView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		EB6FC52B2899C0D7002933E2 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +182,7 @@
 		EB6FC5362899C0D7002933E2 /* Dublin Public Transport */ = {
 			isa = PBXGroup;
 			children = (
+				EB4103B52936BE3000051F6B /* Managers */,
 				EB6FC5802899E411002933E2 /* Services */,
 				EB6FC5752899D819002933E2 /* Views */,
 				EB6FC5722899C9D8002933E2 /* Models */,
@@ -155,6 +190,8 @@
 				EB6FC53B2899C0D8002933E2 /* Assets.xcassets */,
 				EB6FC53D2899C0D8002933E2 /* Preview Content */,
 				EB6FC5702899C4B1002933E2 /* Extensions.swift */,
+				EB856C54289ABA940035CD53 /* BusStops.json */,
+				EB17FD3828AC0AF80038F10C /* LuasStops.json */,
 			);
 			path = "Dublin Public Transport";
 			sourceTree = "<group>";
@@ -211,8 +248,9 @@
 		EB6FC5752899D819002933E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EB86E5902936CD37003989D4 /* Map */,
+				EB4103B82936C16400051F6B /* Location */,
 				EB6FC58A289A8724002933E2 /* Settings */,
-				EB6FC5812899E7D0002933E2 /* Favourites */,
 				EB6FC57B2899D87A002933E2 /* Bus */,
 				EB6FC57A2899D870002933E2 /* Luas */,
 				EB6FC5392899C0D7002933E2 /* ContentView.swift */,
@@ -224,6 +262,9 @@
 			isa = PBXGroup;
 			children = (
 				EB6FC5762899D82B002933E2 /* LuasHomeView.swift */,
+				EB17FD3628AC0A020038F10C /* LuasStopRow.swift */,
+				EB17FD3C28AC0F110038F10C /* LuasStopRowList.swift */,
+				EB17FD3E28C673DD0038F10C /* LuasStopListView.swift */,
 			);
 			path = Luas;
 			sourceTree = "<group>";
@@ -243,16 +284,9 @@
 			isa = PBXGroup;
 			children = (
 				EB6FC5842899E973002933E2 /* BusService.swift */,
+				EB17FD3A28AC0C750038F10C /* LuasService.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		EB6FC5812899E7D0002933E2 /* Favourites */ = {
-			isa = PBXGroup;
-			children = (
-				EB6FC5822899E7F1002933E2 /* FavouriteView.swift */,
-			);
-			path = Favourites;
 			sourceTree = "<group>";
 		};
 		EB6FC58A289A8724002933E2 /* Settings */ = {
@@ -261,6 +295,14 @@
 				EB6FC58B289A873E002933E2 /* SettingsView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		EB86E5902936CD37003989D4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				EB86E5912936CD45003989D4 /* MapView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +323,9 @@
 				EB6FC5452899C0D9002933E2 /* PBXTargetDependency */,
 			);
 			name = "Dublin Public Transport";
+			packageProductDependencies = (
+				EB17FD3428ABB2380038F10C /* SwiftUIX */,
+			);
 			productName = "Dublin Public Transport";
 			productReference = EB6FC5342899C0D7002933E2 /* Dublin Public Transport.app */;
 			productType = "com.apple.product-type.application";
@@ -349,6 +394,9 @@
 				Base,
 			);
 			mainGroup = EB6FC52B2899C0D7002933E2;
+			packageReferences = (
+				EB17FD3328ABB2380038F10C /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = EB6FC5352899C0D7002933E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -365,6 +413,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB17FD3928AC0AF80038F10C /* LuasStops.json in Resources */,
+				EB856C55289ABA940035CD53 /* BusStops.json in Resources */,
 				EB6FC53F2899C0D8002933E2 /* Preview Assets.xcassets in Resources */,
 				EB6FC53C2899C0D8002933E2 /* Assets.xcassets in Resources */,
 			);
@@ -394,19 +444,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB17FD3F28C673DD0038F10C /* LuasStopListView.swift in Sources */,
+				EB4103B72936BE4400051F6B /* LocationManager.swift in Sources */,
+				EB17FD3B28AC0C750038F10C /* LuasService.swift in Sources */,
 				EB6FC5792899D855002933E2 /* BusHomeView.swift in Sources */,
 				EB6FC53A2899C0D7002933E2 /* ContentView.swift in Sources */,
 				EB6FC5852899E973002933E2 /* BusService.swift in Sources */,
 				EB6FC5742899CA06002933E2 /* TransportModel.swift in Sources */,
+				EB4103BA2936C17D00051F6B /* LocationView.swift in Sources */,
 				EB6FC57F2899DCC8002933E2 /* BusStopRow.swift in Sources */,
 				EB6FC5712899C4B1002933E2 /* Extensions.swift in Sources */,
 				EB6FC57D2899DBD3002933E2 /* PreviewData.swift in Sources */,
 				EB6FC5382899C0D7002933E2 /* Dublin_Public_TransportApp.swift in Sources */,
-				EB6FC5832899E7F1002933E2 /* FavouriteView.swift in Sources */,
 				EB6FC5872899EF9E002933E2 /* BusStopRowList.swift in Sources */,
 				EB6FC5772899D82B002933E2 /* LuasHomeView.swift in Sources */,
+				EB17FD3728AC0A020038F10C /* LuasStopRow.swift in Sources */,
+				EB86E5922936CD45003989D4 /* MapView.swift in Sources */,
 				EB6FC5892899F55F002933E2 /* BusStopListView.swift in Sources */,
 				EB6FC58C289A873E002933E2 /* SettingsView.swift in Sources */,
+				EB17FD3D28AC0F110038F10C /* LuasStopRowList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,12 +730,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dublin Public Transport/Preview Content\"";
 				DEVELOPMENT_TEAM = FHJ65NT2SM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access to your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -693,6 +751,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -705,12 +764,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dublin Public Transport/Preview Content\"";
 				DEVELOPMENT_TEAM = FHJ65NT2SM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us access to your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -724,6 +785,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seerydev.Dublin-Public-Transport";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -772,6 +834,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB17FD3328ABB2380038F10C /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB17FD3428ABB2380038F10C /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB17FD3328ABB2380038F10C /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB6FC52C2899C0D7002933E2 /* Project object */;
 }

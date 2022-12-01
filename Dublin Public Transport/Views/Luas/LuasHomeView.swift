@@ -6,15 +6,23 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct LuasHomeView: View {
+    var usersLocation: CLLocation?
+    
     var body: some View {
         NavigationView {
-            ScrollView {
-                
+            VStack {
+                if let location = usersLocation {
+                    MapView(coordinates: location.coordinate, mode: TransportModes.luas).frame(maxWidth: .infinity, maxHeight: 280)
+                }
+                ScrollView(showsIndicators: false) {
+                    LuasStopRowList().background(Color.background)
+                }
             }.background(Color.background)
-            .navigationTitle("Luas")
             .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("Luas")
             .toolbar {
                 ToolbarItem {
                     NavigationLink(destination: SettingsView(),
@@ -24,12 +32,23 @@ struct LuasHomeView: View {
                     })
                 }
             }
-        }.navigationViewStyle(.stack)
+        }.navigationViewStyle(.stack).accentColor(Color.text)
     }
 }
 
 struct LuasHomeView_Previews: PreviewProvider {
+    static let luasStopsService: LuasFetchStops = {
+        let luasStopsService = LuasFetchStops()
+        luasStopsService.luasStops = luasStopsListPreviewData
+        return luasStopsService
+    }()
+    
     static var previews: some View {
-        LuasHomeView()
+        Group {
+            LuasHomeView()
+            LuasHomeView()
+            .preferredColorScheme(.dark)
+       }
+        .environmentObject(luasStopsService)
     }
 }

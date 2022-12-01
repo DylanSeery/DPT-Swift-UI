@@ -1,32 +1,31 @@
 //
-//  BusStopRow.swift
+//  LuasStopRow.swift
 //  Dublin Public Transport
 //
 //  Created by Dylan Seery on 02/08/2022.
 //
 
 import SwiftUI
-import MapKit
 
-struct BusStopRow: View {
-    var busStop: BusStop
+struct LuasStopRow: View {
+    var luasStop: LuasStop
     @State private var favourite = false
 
     var body: some View {
         HStack(spacing: 20) {
             RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .fill(Color.icon.opacity(0.85))
+                .fill(luasStop.line == "Green" ? .green.opacity(0.85) : .red.opacity(0.85))
                 .frame(width: 44, height: 44)
                 .overlay {
-                    Image(systemName: "bus.doubledecker.fill").foregroundColor(Color.background)
+                    Image(systemName: "tram.fill").foregroundColor(Color.background)
                 }
             
             VStack(alignment: .leading, spacing: 5) {
-                Text("Bus Stop Number \(busStop.StopNumber)")
+                Text("Luas Stop \(luasStop.displayName)")
                     .font(.subheadline)
                     .bold()
                     .lineLimit(1)
-                Text(busStop.Description)
+                Text("\(luasStop.line.capitalized) line")
                     .font(.footnote)
                     .opacity(0.7)
                     .lineLimit(1)
@@ -37,10 +36,10 @@ struct BusStopRow: View {
     }
 }
 
-struct BusStopRow_Previews: PreviewProvider {
+struct LuasStopRow_Previews: PreviewProvider {
     static var previews: some View {
-        BusStopRow(busStop: busStopPreviewData)
+        LuasStopRow(luasStop: luasStopPreviewData)
 .previewInterfaceOrientation(.portrait)
-        BusStopRow(busStop: busStopPreviewData).preferredColorScheme(.dark).previewInterfaceOrientation(.portrait)
+        LuasStopRow(luasStop: luasStopPreviewData).preferredColorScheme(.dark).previewInterfaceOrientation(.portrait)
     }
 }

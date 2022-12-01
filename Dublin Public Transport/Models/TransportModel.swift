@@ -8,11 +8,27 @@
 import Foundation
 import MapKit
 
+enum TransportModes {
+  case bus, luas
+}
+
 struct BusStop: Hashable, Codable {
     let StopNumber: Int;
     let Description: String;
     let Longitude: String;
     let Latitude: String;
+}
+
+struct LuasStop: Hashable, Codable {
+    let shortName: String;
+    let displayName: String;
+    let line: String;
+    let coordinates: Coordinates;
+}
+
+struct Coordinates: Hashable, Codable {
+    let latitude: Double;
+    let longitude: Double;
 }
 
 struct BusStopFav: Hashable, Codable {

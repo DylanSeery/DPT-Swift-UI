@@ -1,5 +1,5 @@
 //
-//  BusStopRowList.swift
+//  LuasStopRowList.swift
 //  Dublin Public Transport
 //
 //  Created by Dylan Seery on 03/08/2022.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct BusStopRowList: View {
-    @EnvironmentObject var busStopsService: BusFetchStops
+struct LuasStopRowList: View {
+    @EnvironmentObject var luasStopsService: LuasFetchStops
 
     var body: some View {
         VStack {
@@ -21,7 +21,7 @@ struct BusStopRowList: View {
 
                 // MARK: Header Link
                 NavigationLink {
-                    BusStopListView()
+                    LuasStopListView()
                 } label: {
                     HStack(spacing: 4) {
                         Text("See All Stops")
@@ -32,8 +32,8 @@ struct BusStopRowList: View {
             }
             .padding([.bottom])
             
-            ForEach(Array(busStopsService.busStops.prefix(5).enumerated()), id: \.element) { index, busStop in
-                BusStopRow(busStop: busStop)
+            ForEach(Array(luasStopsService.luasStops.prefix(5).enumerated()), id: \.element) { index, luasStop in
+                LuasStopRow(luasStop: luasStop)
                 Divider()
                     .opacity(index == 4 ? 0 : 1)
             }
@@ -42,19 +42,19 @@ struct BusStopRowList: View {
     }
 }
 
-struct BusStopRowList_Previews: PreviewProvider {
-    static let busStopsService: BusFetchStops = {
-        let busStopsService = BusFetchStops()
-        busStopsService.busStops = busStopsListPreviewData
-        return busStopsService
+struct LuasStopRowList_Previews: PreviewProvider {
+    static let luasStopsService: LuasFetchStops = {
+        let luasStopsService = LuasFetchStops()
+        luasStopsService.luasStops = luasStopsListPreviewData
+        return luasStopsService
     }()
     
     static var previews: some View {
         Group {
-            BusStopRowList()
-            BusStopRowList()
+            LuasStopRowList()
+            LuasStopRowList()
             .preferredColorScheme(.dark)
        }
-       .environmentObject(busStopsService)
+       .environmentObject(luasStopsService)
     }
 }

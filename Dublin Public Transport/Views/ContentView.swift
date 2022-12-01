@@ -8,27 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var locationManager = LocationManager.shared
+    @AppStorage("darkMode") private var darkMode = false
 
     var body: some View {
-        TabView {
-            BusHomeView()
-                .tabItem {
-                    Image(systemName: "bus.doubledecker")
-                    Text("Bus").foregroundColor(Color.icon)
-                }
+        Group {
+            if locationManager.userLocation === nil {
+                LocationView()
+            } else if let userLocation = locationManager.userLocation {
+                TabView {
+                    BusHomeView(usersLocation: userLocation)
+                        .tabItem {
+                            Image(systemName: "bus.doubledecker")
+                            Text("Bus").foregroundColor(Color.icon)
+                        }
 
-            LuasHomeView()
-                .tabItem {
-                    Image(systemName: "tram")
-                    Text("Luas")
+                    LuasHomeView(usersLocation: userLocation)
+                        .tabItem {
+                            Image(systemName: "tram")
+                            Text("Luas")
+                        }
                 }
-            
-            FavouriteView()
-                .tabItem {
-                    Image(systemName: "star.fill")
-                    Text("Favourites")
-                }
+            }
         }.accentColor(Color.icon)
+            .preferredColorScheme(darkMode ? .dark : .light)
     }
 }
 
@@ -38,6 +41,11 @@ struct ContentView_Previews: PreviewProvider {
         busStopsService.busStops = busStopsListPreviewData
         return busStopsService
     }()
+    static let luasStopsService: LuasFetchStops = {
+        let luasStopsService = LuasFetchStops()
+        luasStopsService.luasStops = luasStopsListPreviewData
+        return luasStopsService
+    }()
     
     static var previews: some View {
         Group {
@@ -46,5 +54,6 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
        }
        .environmentObject(busStopsService)
+       .environmentObject(luasStopsService)
     }
 }

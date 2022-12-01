@@ -9,20 +9,17 @@ import SwiftUI
 import MapKit
 
 struct BusHomeView: View {
-    @State private var region = MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 37.334_900,
-                                           longitude: -122.009_020),
-            latitudinalMeters: 750,
-            longitudinalMeters: 750
-        )
+    var usersLocation: CLLocation?
     
     var body: some View {
         NavigationView {
-            ScrollView {
-//                Map(coordinateRegion: $region).frame(width: 400, height: 300)
-                
-                BusStopRowList()
-                
+            VStack {
+                if let location = usersLocation {
+                    MapView(coordinates: location.coordinate, mode: TransportModes.bus).frame(maxWidth: .infinity, maxHeight: 280)
+                }
+                ScrollView(showsIndicators: false) {
+                    BusStopRowList().background(Color.background)
+                }
             }.background(Color.background)
             .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("Dublin Bus")

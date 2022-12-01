@@ -1,5 +1,5 @@
 //
-//  BusStopListView.swift
+//  LuasStopListView.swift
 //  Dublin Public Transport
 //
 //  Created by Dylan Seery on 03/08/2022.
@@ -8,8 +8,8 @@
 import SwiftUI
 import SwiftUIX
 
-struct BusStopListView: View {
-    @EnvironmentObject var busStopsService: BusFetchStops
+struct LuasStopListView: View {
+    @EnvironmentObject var luasStopsService: LuasFetchStops
     @State var isEditing: Bool = false
     @State var searchText: String = ""
     
@@ -18,15 +18,16 @@ struct BusStopListView: View {
             SearchBar("Search...", text: $searchText, isEditing: $isEditing)
                         .showsCancelButton(isEditing)
                         .onCancel { print("Canceled!") }
+                        .padding([.trailing, .leading])
             
             List {
-                ForEach(Array(busStopsService.busStops), id: \.StopNumber) { busStop in
-                    BusStopRow(busStop: busStop)
+                ForEach(Array(luasStopsService.luasStops), id: \.hashIdentifiable) { luasStops in
+                    LuasStopRow(luasStop: luasStops)
                 }.listRowBackground(Color.background)
             }
             .listStyle(.plain)
         }
-        .navigationTitle("Dublin Bus Stops")
+        .navigationTitle("Luas Stops")
         .navigationBarTitleDisplayMode(.inline)
         .background(Color.background)
         .toolbar {
@@ -41,20 +42,20 @@ struct BusStopListView: View {
     }
 }
 
-struct BusStopListView_Previews: PreviewProvider {
-    static let busStopsService: BusFetchStops = {
-        let busStopsService = BusFetchStops()
-        busStopsService.busStops = busStopsListPreviewData
-        return busStopsService
+struct LuasStopListView_Previews: PreviewProvider {
+    static let luasStopsService: LuasFetchStops = {
+        let luasStopsService = LuasFetchStops()
+        luasStopsService.luasStops = luasStopsListPreviewData
+        return luasStopsService
     }()
     
     static var previews: some View {
         Group {
-            BusStopListView()
-            BusStopListView()
+            LuasStopListView()
+            LuasStopListView()
             .preferredColorScheme(.dark)
        }
-       .environmentObject(busStopsService)
+       .environmentObject(luasStopsService)
     }
 
 }
